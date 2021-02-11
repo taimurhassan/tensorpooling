@@ -3,7 +3,7 @@
 ## Introduction
 This repository contains the implementation of our tensor pooling driven contour instance segmentation framework. 
 
-![TP](/images/Picture1.jpg)
+![TP](/images/Picture212.jpg)
 
 ## Installation
 To run the proposed framework, please download and install Anaconda. Afterward, please import the ‘environment.yml’ or alternatively install following packages: 
