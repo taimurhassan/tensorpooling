@@ -91,7 +91,7 @@ Each dataset contains the ground truths either in mat files, txt files or in xml
 2. Once the step 1 is completed, please run '…\instanceDetector.m' to generate the final detection outputs. Please note that the '…\instanceDetector.m' requires that the original images are placed in the '…\testingDataset\original' folder (as discussed in the previous section).
 
 ## Results
-The additional results of the TST framework are presented in the '…\results' folder. Please feel free to email us if you require the trained instances. 
+The additional results of the proposed framework are presented in the '…\results' folder. Please feel free to email us if you require the trained instances. 
 
 ## Citation
 If you use the proposed framework (or any part of this code in your research), please cite the following paper:
