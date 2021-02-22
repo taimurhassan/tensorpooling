@@ -73,7 +73,7 @@ def train(model,
           verify_dataset=True,
           checkpoints_path=None,
           epochs=5,
-          batch_size=16, # change it as per the dataset and system specifications
+          batch_size=4, # change it as per the dataset and system specifications
           validate=False,
           val_images=None,
           val_annotations=None,
