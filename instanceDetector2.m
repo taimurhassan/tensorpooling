@@ -13,7 +13,7 @@ ext_img = [pn '*.png'];
 a = dir(ext_img);
 nfile = length(a);
 proposals = {};
-obj = [];
+obj = []; 
 
 % update these color codes by evaluating the results saved at path 'pn2'
 bg = [20 215 197];
