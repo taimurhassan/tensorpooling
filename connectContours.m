@@ -4,15 +4,14 @@ function arr = connectContours(arr,rMax)
 % If not connected, it attempts to draw connections to pixels of the contours via Bresenham's 
 % straight line algorithm.
 
-load edgeVecs % pre-calculated list of perimeter coordinates to save processing time
+% load edgeVecs % pre-calculated list of perimeter coordinates to save processing time
 % Generated using this code:
-%{
+N = rMax;%prod(size(arr));
 for r = 1:N
 	s = 2*r+1;
 	edgeVecs{1,r} = [1:s repmat(s,[1 s-1]) s-1:-1:1 ones([1 s-2])];
 	edgeVecs{2,r} = [ones([1 s-1]) 1:s repmat(s,[1 s-1]) s-1:-1:2];
 end
-%}
 
 d = size(arr);
 for x = 1:d(2)
