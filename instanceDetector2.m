@@ -7,7 +7,7 @@ pn2 = 'testingDataset\segmentation_results\';
 % coherent tensor representations (output of structure tensor module)
 pn = 'testingDataset\test_images\';
 % path to original images
-pn3 = 'testingDataset\original\';
+pn3 = 'testingDataset\original\'; 
 
 ext_img = [pn '*.png'];
 a = dir(ext_img);
