@@ -100,7 +100,7 @@ If you use the proposed framework (or any part of this code in your research), p
 @inproceedings{tensorPooling,
   title   = {Tensor Pooling Driven Instance Segmentation Framework for Baggage Threat Recognition},
   author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
-  note = {Submitted in Springer Neural Computing and Applications},
+  note = {Neural Computing and Applications},
   year = {2021}
 }
 ```
